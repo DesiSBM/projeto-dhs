@@ -1,13 +1,9 @@
 
-/* Fonte importada do Google Fonts - lembre que a ação de @import deve estar no começo do código CSS, antes das demais regras. */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
-
 body {
     background-color: #FFEFD5;
     color: #242426;
     font-family: 'Merriweather', serif;
-    /* Podemos limitar a largura de qualquer elemento com a propriedade width e centralizar o conteúdo com margin automática. */
-    width: 50%;
+    width: 35%;
     margin: auto;
 }
 
@@ -18,11 +14,9 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* Definir as imagens com max-width contem essa imagens dentro da caixa que a contém. A altura será ajustada automaticamente para não ocorrer distorção. */
 img {
-    max-width: 100%;
+    max-width: 80%;
 }
 
-/* Seletor descendente: estamos procurando um elemento figure e dentro dele elementos img */
 figure img {
     width: 150px;
